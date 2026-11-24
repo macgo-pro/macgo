@@ -99,7 +99,10 @@ Vì dự án là **Pure Static (HTML/CSS/JS thuần)**, bạn không cần chạ
    ```
 3. Chọn cấu hình mặc định (Output directory: `.`) để xuất bản ngay.
 
-### Phương án 4: GitHub Pages
-1. Tạo một Repository mới trên GitHub và đẩy toàn bộ các file trong `macgo-landing/` lên nhánh `main`.
+### Phương án 4: GitHub Pages (Chính thức đang hoạt động 24/7)
+- **URL chính thức (Root Domain):** [https://macgo-pro.github.io/](https://macgo-pro.github.io/) (`https://github.com/macgo-pro/macgo-pro.github.io`)
+- **URL dự án (Subpath Domain):** [https://macgo-pro.github.io/macgo/](https://macgo-pro.github.io/macgo/) (`https://github.com/macgo-pro/macgo`)
+
+1. Tạo một Repository mới trên GitHub (`macgo-pro.github.io` hoặc `macgo`) và đẩy toàn bộ các file trong `macgo-landing/` lên nhánh `main`.
 2. Vào **Settings** → **Pages** → mục **Build and deployment** chọn `Deploy from a branch` (`main` / `/ (root)`).
-3. Bấm **Save** và đợi khoảng 1 phút để trang web hoạt động.
+3. Bấm **Save** và đợi khoảng 1 phút để trang web hoạt động tại `https://macgo-pro.github.io/`.
